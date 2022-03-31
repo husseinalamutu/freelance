@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/husseinalamutu/freelance/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    <div class="hero">
+        <nav>
+            <img src="./img/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Buy Now</a>
+        </nav>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <div class="content">
+            <span class="title">Freelance Content Writer</span>
+            <h1>Hello, I’m <span>Hussein</span></h1>
+            <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template Imroz.</p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </div>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/husseinalamutu/freelance/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
